@@ -1,0 +1,19 @@
+hostname SW-HR
+
+vlan 10
+ name HR
+
+interface GigabitEthernet0/1
+ switchport mode trunk
+ switchport trunk allowed vlan 10
+ no shutdown
+
+interface FastEthernet0/2
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+
+interface FastEthernet0/3
+ switchport mode access
+ switchport access vlan 10
+ no shutdown

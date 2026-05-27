@@ -1,0 +1,19 @@
+hostname SW-Finance
+
+vlan 20
+ name Finance
+
+interface GigabitEthernet0/1
+ switchport mode trunk
+ switchport trunk allowed vlan 20
+ no shutdown
+
+interface FastEthernet0/2
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
+
+interface FastEthernet0/3
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
