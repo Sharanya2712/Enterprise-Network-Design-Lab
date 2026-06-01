@@ -10,7 +10,7 @@ Technology: Cisco Packet Tracer
 
 Date: 2026 
 
-Purpose: Macquarie Network Engineer Portfolio Project 
+
 
  
 
